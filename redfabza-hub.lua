@@ -137,9 +137,9 @@ EnterButton.MouseButton1Click:Connect(function()
 	local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 	local Window = Rayfield:CreateWindow({
-	    Name = "RedFabza 👑",
+	    Name = "RedFabza 👑(Test version)",
 	    LoadingTitle = "RedFabza Hub",
-	    LoadingSubtitle = "โหลดเสร็จว่ะไอ้สัส",
+	    LoadingSubtitle = "โหลดเสร็จแล้ว",
 	    ConfigurationSaving = {
 	        Enabled = true,
 	        FolderName = nil,
@@ -597,7 +597,7 @@ EnterButton.MouseButton1Click:Connect(function()
 
 	-- Notify สุดท้าย
 	Rayfield:Notify({
-	    Title = "เข้าสำเร็จว่ะไอ้เอิร์ท",
+	    Title = "เข้าสำเร็จแล้ว",
 	    Content = "ปุ่มเปิดปิดหายไปหมดแล้วตามที่มึงสั่ง กดครั้งเดียวเด้งเข้าหลักเลย UI สะอาดขึ้นเยอะ ไปโกงให้มันส์เลยไอ้สัส ถ้า UI ยังรกอยู่ก็สมน้ำหน้าเองที่เคยขอปุ่มกาก ๆ นั้นมา 5555",
 	    Duration = 6,
 	})
